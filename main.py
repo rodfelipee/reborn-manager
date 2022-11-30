@@ -6,7 +6,7 @@ from discord.ext import commands
 server_id = 1047502406189068379
 intents = discord.Intents.default()
 intents.members = True
-token = 'MTA0NzQ5OTE5NzgxNDk1MTk1Ng.GoFhyq.nu84RIhw3h-OCGTqCLUOyFw0FypLqRH4r3xh5Q'
+token = ''
 
 class MyClient(discord.Client):
     def __init__(self):
