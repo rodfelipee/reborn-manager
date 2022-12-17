@@ -29,6 +29,8 @@ class MyClient(discord.Client):
     async def ping(self, ctx):
         await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
+print('aa')
+
     
 
 client = MyClient()
